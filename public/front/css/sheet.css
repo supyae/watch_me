@@ -1,0 +1,234 @@
+table.detail {
+	padding: 5%;
+	width: 35%;
+	border-collapse: collapse;
+}
+
+table.detail td {
+	color: #c0d3e8;
+	line-height: 25px;
+	font-size: 9pt;
+	border: 1px solid #4a5664;
+	padding: 3%;
+}
+
+
+span.s {
+	color: #fe8503;
+	font-size: 9pt;
+}
+
+table.seater_info{
+	margin-top: 3px;
+	background-color: #000000;
+	border:1px solid #10243a;
+	border-radius: 5px;
+	padding : 5%;
+	width: 50%;
+}
+table.seater_info td{
+	padding: 1%;
+}
+
+#templatemo_searchshedule {
+	float:left;
+	width: 96.5%;
+	padding: 15px;
+	background: #1a677e;
+	border-radius: 10px;
+}
+span.ss{
+	color: #f0f0f0;
+	font-size: 9pt;
+}
+table.booking_info{
+	width: 35%;
+	padding: 5%;
+}
+table.booking_info td{
+	padding-bottom: 3%;
+	line-height: 25px;
+}
+
+
+
+/**** ----------------
+-------
+
+------- */
+
+
+#seaterframe{
+	margin: 0 auto;
+	width : 100%;
+	height : 100%;
+	padding : 5%;
+
+}
+#container
+{
+	margin: 0 auto;
+	padding: 0px 0 0;
+	width: 540px;
+	height:385px;
+	border:1px solid #10243A;
+	border-radius:5px;
+	/*background: #10243A;*/
+	background: #000000;
+}
+div#stage{
+	margin-left:100px;
+	background-image:url("../images/stage.jpg");
+	width:350px;
+	height:40px;
+	border:0px solid #000;
+	position:absolute;
+
+}
+ul#seatingplan{
+	list-style: none outside none;
+	margin-top : 5%;
+
+
+}
+
+li#ava{
+	background-image:url("../images/seata.jpg");
+	background-repeat:no-repeat;
+}
+li#notava{
+	background-image:url("../images/bookedseat.jpg");
+	background-repeat:no-repeat;
+	pointer-events: none;
+	cursor: not-allowed;
+}
+
+/*class A*/
+
+li.A1,li.A2,li.A3,li.A4,li.A5,li.A6,li.A7,li.A8,li.A9,li.A10,li.A11,li.A12,li.A13,li.A14,li.A15,li.A16,li.A17,li.A18,li.A19,li.A20
+{
+	position :absolute;
+	margin-top : 30px;
+}
+
+li.B1,li.B2,li.B3,li.B4,li.B5,li.B6,li.B7,li.B8,li.B9,li.B10,li.B11,li.B12,li.B13,li.B14,li.B15,li.B16,li.B17,li.B18,li.B19,li.B20
+{
+	position :absolute;
+	margin-top : 55px;
+}
+li.C1,li.C2,li.C3,li.C4,li.C5,li.C6,li.C7,li.C8,li.C9,li.C10,li.C11,li.C12,li.C13,li.C14,li.C15,li.C16,li.C17,li.C18,li.C19,li.C20
+{
+	position :absolute;
+	margin-top : 80px;
+}
+li.D1,li.D2,li.D3,li.D4,li.D5,li.D6,li.D7,li.D8,li.D9,li.D10,li.D11,li.D12,li.D13,li.D14,li.D15,li.D16,li.D17,li.D18,li.D19,li.D20
+{
+	position :absolute;
+	margin-top : 105px;
+}
+li.E1,li.E2,li.E3,li.E4,li.E5,li.E6,li.E7,li.E8,li.E9,li.E10,li.E11,li.E12,li.E13,li.E14,li.E15,li.E16,li.E17,li.E18,li.E19,li.E20
+{
+	position :absolute;
+	margin-top : 130px;
+}
+li.F1,li.F2,li.F3,li.F4,li.F5,li.F6,li.F7,li.F8,li.F9,li.F10,li.F11,li.F12,li.F13,li.F14,li.F15,li.F16,li.F17,li.F18,li.F19,li.F20
+{
+	position :absolute;
+	margin-top : 155px;
+}
+li.G1,li.G2,li.G3,li.G4,li.G5,li.G6,li.G7,li.G8,li.G9,li.G10,li.G11,li.G12,li.G13,li.G14,li.G15,li.G16,li.G17,li.G18,li.G19,li.G20
+{
+	position :absolute;
+	margin-top : 180px;
+}
+li.H1,li.H2,li.H3,li.H4,li.H5,li.H6,li.H7,li.H8,li.H9,li.H10,li.H11,li.H12,li.H13,li.H14,li.H15,li.H16,li.H17,li.H18,li.H19,li.H20
+{
+	position :absolute;
+	margin-top : 205px;
+}
+li.I1,li.I2,li.I3,li.I4,li.I5,li.I6,li.I7,li.I8,li.I9,li.I10,li.I11,li.I12,li.I13,li.I14,li.I15,li.I16,li.I17,li.I18,li.I19,li.I20
+{
+	position :absolute;
+	margin-top : 230px;
+}
+li.A1,li.B1,li.C1,li.D1,li.E1,li.F1,li.G1,li.H1,li.I1
+{
+	margin-left: 10px;
+}
+li.A2,li.B2,li.C2,li.D2,li.E2,li.F2,li.G2,li.H2,li.I2
+{
+	margin-left:30px;
+}
+li.A3,li.B3,li.C3,li.D3,li.E3,li.F3,li.G3,li.H3,li.I3
+{
+	margin-left:50px;
+}
+li.A4,li.B4,li.C4,li.D4,li.E4,li.F4,li.G4,li.H4,li.I4
+{
+	margin-left:70px;
+}
+
+li.A5,li.B5,li.C5,li.D5,li.E5,li.F5,li.G5,li.H5,li.I5
+{
+	margin-left:90px;
+}
+li.A6,li.B6,li.C6,li.D6,li.E6,li.F6,li.G6,li.H6,li.I6
+{
+	margin-left:140px;
+}
+li.A7,li.B7,li.C7,li.D7,li.E7,li.F7,li.G7,li.H7,li.I7
+{
+	margin-left:160px;
+}
+li.A8,li.B8,li.C8,li.D8,li.E8,li.F8,li.G8,li.H8,li.I8
+{
+	margin-left:180px;
+}
+li.A9,li.B9,li.C9,li.D9,li.E9,li.F9,li.G9,li.H9,li.I9
+{
+	margin-left:200px;
+}
+li.A10,li.B10,li.C10,li.D10,li.E10,li.F10,li.G10,li.H10,li.I10
+{
+	margin-left:220px;
+}
+li.A11,li.B11,li.C11,li.D11,li.E11,li.F11,li.G11,li.H11,li.I11
+{
+	margin-left:240px;
+}
+li.A12,li.B12,li.C12,li.D12,li.E12,li.F12,li.G12,li.H12,li.I12
+{
+	margin-left:260px;
+}
+li.A13,li.B13,li.C13,li.D13,li.E13,li.F13,li.G13,li.H13,li.I13
+{
+	margin-left:280px;
+}
+li.A14,li.B14,li.C14,li.D14,li.E14,li.F14,li.G14,li.H14,li.I14
+{
+	margin-left:300px;
+}
+li.A15,li.B15,li.C15,li.D15,li.E15,li.F15,li.G15,li.H15,li.I15
+{
+	margin-left:320px;
+}
+li.A16,li.B16,li.C16,li.D16,li.E16,li.F16,li.G16,li.H16,li.I16
+{
+	margin-left:370px;
+}
+li.A17,li.B17,li.C17,li.D17,li.E17,li.F17,li.G17,li.H17,li.I17
+{
+	margin-left:390px;
+}
+li.A18,li.B18,li.C18,li.D18,li.E18,li.F18,li.G18,li.H18,li.I18
+{
+	margin-left:410px;
+}
+li.A19,li.B19,li.C19,li.D19,li.E19,li.F19,li.G19,li.H19,li.I19
+{
+	margin-left:430px;
+}
+li.A20,li.B20,li.C20,li.D20,li.E20,li.F20,li.G20,li.H20,li.I20
+{
+	margin-left:450px;
+}
